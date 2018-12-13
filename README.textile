@@ -6,10 +6,8 @@ h3. Installation instructions
 
 Debian / Ubuntu
 
-```
 sudo -i
 apt-get install backupninja
 cd /usr/local/src/
 git clone https://github.com/bstconsult/backupninja-mongodb.git
 cp backupninja-mongodb/mongodb* /usr/share/backupninja/
-```
