@@ -4,4 +4,12 @@ Performs binary backup (using @mongodump@ utility) of MongoDB database.
 
 h3. Installation instructions
 
-TBD
+Debian / Ubuntu
+
+```
+sudo -i
+apt-get install backupninja
+cd /usr/local/src/
+git clone https://github.com/bstconsult/backupninja-mongodb.git
+cp backupninja-mongodb/mongodb* /usr/share/backupninja/
+```
